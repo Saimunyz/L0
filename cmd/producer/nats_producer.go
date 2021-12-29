@@ -48,7 +48,6 @@ func main() {
 		if err != nil {
 			fmt.Println(err)
 		}
-
 	}
 
 	err = sc.Publish(channel, []byte("Some wrong data"))
@@ -56,5 +55,6 @@ func main() {
 		fmt.Println(err)
 	}
 
-	fmt.Println("Messages send")
+	fmt.Println("6 messages have been sent")
+	fmt.Println("4 messages are normal and 2 bad")
 }

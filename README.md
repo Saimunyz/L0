@@ -3,8 +3,8 @@
 
 ## Для запуска  
 1) Нужно запустить docker-compose up -d для запуска postgres и nats-streaming
-2) Запустить скрипт для отправки данных через nats-streaming: make data
-3) Запустить проект make run
+2) Запустить проект make run
+3) Запустить скрипт для отправки данных через nats-streaming: make data
 
 После запуска make run нужно открыть в браузере http://127.0.0.1:8080/  
 Вся основная кофигурация проекта лежит в config.yaml. Данные находятся в data.json
