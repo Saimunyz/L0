@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nats-streaming:
+    image: "nats-streaming"
+    container_name: "nats-streaming"
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+      - "6222:6222"
+  postgres:
+    image: "postgres"
+    container_name: "postgres"
+    environment:
+      - POSTGRES_USER=swagstaf
+      - POSTGRES_PASSWORD=qwerty_pwd
+    ports:
+      - "5432:5432"
+    volumes:
+      - /home/swagstaf/postgres/L0/data:/var/lib/postgresql/data
