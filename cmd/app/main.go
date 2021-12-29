@@ -1,9 +1,9 @@
 package main
 
 import (
-	"L0/internal/migrations"
-	"L0/internal/model"
-	"L0/internal/nats"
+	"github.com/Saimunyz/L0/internal/migrations"
+	"github.com/Saimunyz/L0/internal/model"
+	"github.com/Saimunyz/L0/internal/nats"
 	"context"
 	"fmt"
 	"github.com/julienschmidt/httprouter"
@@ -11,9 +11,9 @@ import (
 	"log"
 	"net/http"
 
-	"L0/internal/api"
-	"L0/internal/config"
-	"L0/pkg/helpers"
+	"github.com/Saimunyz/L0/internal/api"
+	"github.com/Saimunyz/L0/internal/config"
+	"github.com/Saimunyz/L0/pkg/helpers"
 )
 
 func main() {

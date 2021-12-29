@@ -1,9 +1,9 @@
 package db
 
 import (
-	"L0/internal/model"
 	"context"
 	"fmt"
+	"github.com/Saimunyz/L0/internal/model"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"time"

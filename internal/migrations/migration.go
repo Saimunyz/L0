@@ -1,8 +1,8 @@
 package migrations
 
 import (
-	"L0/internal/config"
-	"L0/pkg/helpers"
+	"github.com/Saimunyz/L0/internal/config"
+	"github.com/Saimunyz/L0/pkg/helpers"
 	"database/sql"
 	_ "github.com/lib/pq"
 	"github.com/pressly/goose/v3"

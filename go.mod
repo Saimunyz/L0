@@ -1,4 +1,4 @@
-module L0
+module github.com/Saimunyz/L0
 
 go 1.17
 

@@ -1,8 +1,8 @@
 package api
 
 import (
-	"L0/internal/model"
-	"L0/internal/service"
+	"github.com/Saimunyz/L0/internal/model"
+	"github.com/Saimunyz/L0/internal/service"
 	"encoding/json"
 	"fmt"
 	"github.com/jackc/pgx/v4/pgxpool"

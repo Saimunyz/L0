@@ -1,7 +1,7 @@
 package config
 
 import (
-	"L0/pkg/helpers"
+	"github.com/Saimunyz/L0/pkg/helpers"
 	"os"
 	"path/filepath"
 

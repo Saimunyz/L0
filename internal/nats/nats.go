@@ -1,8 +1,8 @@
 package nats
 
 import (
-	"L0/internal/config"
-	"L0/internal/model"
+	"github.com/Saimunyz/L0/internal/config"
+	"github.com/Saimunyz/L0/internal/model"
 	"encoding/json"
 	"github.com/nats-io/stan.go"
 	"log"

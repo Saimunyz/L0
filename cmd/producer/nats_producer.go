@@ -1,9 +1,9 @@
 package main
 
 import (
-	"L0/internal/model"
 	"encoding/json"
 	"fmt"
+	"github.com/Saimunyz/L0/internal/model"
 	"github.com/nats-io/stan.go"
 	"io/ioutil"
 	"log"
@@ -55,6 +55,5 @@ func main() {
 		fmt.Println(err)
 	}
 
-	fmt.Println("6 messages have been sent")
-	fmt.Println("4 messages are normal and 2 bad")
+	fmt.Println("6 messages have been sent: 4 messages are normal and 2 bad")
 }

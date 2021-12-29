@@ -1,9 +1,9 @@
 package service
 
 import (
-	"L0/internal/db"
-	"L0/internal/model"
-	memorycache "L0/pkg/cache"
+	"github.com/Saimunyz/L0/internal/db"
+	"github.com/Saimunyz/L0/internal/model"
+	memorycache "github.com/Saimunyz/L0/pkg/cache"
 	"context"
 	"fmt"
 	"github.com/jackc/pgx/v4/pgxpool"
