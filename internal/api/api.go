@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/Saimunyz/L0/internal/model"
-	"github.com/Saimunyz/L0/internal/service"
 	"encoding/json"
 	"fmt"
+	"github.com/Saimunyz/L0/internal/model"
+	"github.com/Saimunyz/L0/internal/service"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/julienschmidt/httprouter"
 	"github.com/rs/zerolog/log"
@@ -82,8 +82,7 @@ func (h *handler) startPage(w http.ResponseWriter, r *http.Request, ps httproute
 
 	ids, err := h.s.GetAllIDs()
 	if err != nil {
-		fmt.Fprintf(w, "%v", err)
-		return
+		log.Printf("error: %v", err)
 	}
 
 	exist := false
